@@ -1,0 +1,1371 @@
+/* @media screen and (max-width: 1300px) {
+	.main {
+		height: 70vh;
+	}
+} */
+@media screen and (max-width: 1220px) {
+	.container {
+		width: 100%;
+		padding: 0 20px;
+	}
+	/* Service */
+	.service-8-block {
+		display: grid;
+		justify-items: center;
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.fintech {
+		margin-bottom: 50px;
+	}
+	.fintech:last-child {
+		margin-bottom: 0;
+	}
+	.dropDown {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		row-gap: 50px;
+	}
+	.main {
+		height: 50vh;
+	}
+	.main-block h1 {
+		width: 100%;
+		font-size: 30px;
+	}
+	.menu-button-container {
+		display: flex;
+	}
+	.process-info {
+		width: 100%;
+	}
+	.menu {
+		position: absolute;
+		top: 0;
+		z-index: 1;
+		margin-top: 75px;
+		left: 0;
+		flex-direction: column;
+		width: 100%;
+		justify-content: center;
+		align-items: center;
+	}
+	#menu-toggle ~ .menu li {
+		height: 0;
+		margin: 0;
+		padding: 0;
+		border: 0;
+		transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+	}
+	#menu-toggle:checked ~ .menu li {
+		border: 1px solid #333;
+		height: 3em;
+		padding: 0.5em;
+		align-items: center;
+		transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+	}
+	.menu > li {
+		display: flex;
+		justify-content: center;
+		margin: 0;
+		padding: 0.5em 0;
+		width: 100%;
+		background-color: #222;
+	}
+	.h-link {
+		color: #fff;
+	}
+	#link-active {
+		padding-bottom: 5px;
+		border-bottom: 1px solid rgb(110 110 110);
+	}
+	.top-nav a {
+		z-index: 0;
+	}
+	.header-link {
+		border: 1px solid #fff;
+		padding: 8px 20px;
+		color: #fff;
+	}
+	.h-link:hover i {
+		color: rgb(110 110 110);
+	}
+	.headerLinkLi {
+		z-index: 0;
+	}
+	.dropdown-content {
+		top: 0;
+	}
+	.dropHead h1 {
+		margin-top: 20px;
+	}
+	.closeDraw {
+		display: block;
+	}
+	/* Technologies */
+	.techno6 h1 {
+		font-size: 30px;
+		width: 100%;
+	}
+	.technologies6 {
+		padding: 60px;
+	}
+	.indus7 h1 {
+		font-size: 30px;
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 1235px) {
+	.process-description {
+		justify-content: center;
+	}
+	.process-btn {
+		margin-left: 0;
+		margin-bottom: 30px;
+	}
+	.process-info {
+		border-bottom-right-radius: 10px;
+		border-top-right-radius: 10px;
+	}
+	.process-btn ul {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.process-btn ul li {
+		display: flex;
+		margin-right: 30px;
+	}
+	.process-btn ul li:last-child {
+		margin-right: 0;
+	}
+	.wrapper {
+		width: 100%;
+		padding: 0 20px;
+	}
+}
+
+@media screen and (max-width: 1120px) {
+	.info-text h4 {
+		width: 100%;
+	}
+	.info-text p {
+		width: 100%;
+	}
+	.info-text {
+		margin-bottom: 50px;
+	}
+	.info-text h2 {
+		width: 100%;
+	}
+	.case-info {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+	}
+	.case-section {
+		text-align: center;
+	}
+	.case-block1 {
+		margin-bottom: 50px;
+	}
+	.case-block2 {
+		margin-bottom: 50px;
+	}
+	.case-section img {
+		width: 80%;
+		margin-bottom: 20px;
+	}
+	.case-section h3 {
+		margin-bottom: 10px;
+	}
+	.footer-block {
+		flex-direction: column;
+		align-items: center;
+	}
+	.footer-block1 {
+		margin-bottom: 30px;
+	}
+	.menu-item__links {
+		margin-left: 0;
+	}
+	/* work */
+	.works ul {
+		display: flex;
+		flex-wrap: wrap;
+		row-gap: 20px;
+	}
+	.work1block {
+		display: flex;
+		flex-direction: column;
+	}
+	.work1text {
+		margin-bottom: 50px;
+	}
+	.work2block {
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	.work2text {
+		margin-bottom: 50px;
+	}
+	.framework h1 {
+		text-align: center;
+	}
+	.work8img {
+		grid-template-columns: repeat(3, 1fr);
+		row-gap: 50px;
+		justify-items: center;
+		margin-bottom: 50px;
+	}
+	.work8img2 {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		justify-items: center;
+	}
+	/* Technologies */
+	.techno2 {
+		grid-template-columns: repeat(1, 1fr);
+		row-gap: 50px;
+	}
+	/* Industries */
+	.indusBlock {
+		grid-template-columns: repeat(3, 1fr);
+		row-gap: 30px;
+		margin-bottom: 50px;
+	}
+	/* Company */
+	.office{
+		grid-template-columns: repeat(1,1fr);
+		row-gap: 50px;
+	}
+	.office img{
+		max-width: 100%;
+	}
+	.company2{
+		margin-bottom: 90px;
+		padding-top: 90px;
+	}
+	.company4{
+		margin-bottom: 90px;
+	}
+}
+
+@media screen and (max-width: 1060px) {
+	.block-service {
+		justify-content: space-around;
+	}
+	.service-description {
+		margin-bottom: 50px;
+	}
+	.service-description:last-child {
+		margin-bottom: 0;
+	}
+	/* Technologies */
+	.techno5box {
+		height: 0;
+	}
+	.techno6 {
+		row-gap: 50px;
+		flex-direction: column;
+	}
+	/* Company */
+	.slide3text h1{
+		font-size: 20px;
+	}
+	.slide3text p{
+		font-size: 16px;
+	}
+}
+
+@media screen and (max-width: 950px) {
+	.main-block h1 {
+		width: 100%;
+	}
+	/* .process-info {
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+	} */
+	.info-section {
+		width: 100%;
+		margin-bottom: 60px;
+	}
+	.info-section p {
+		width: 100%;
+		padding: 0;
+	}
+	.dropDown {
+		grid-template-columns: repeat(1, 1fr);
+	}
+	/* Technologies */
+	.techno5 {
+		column-gap: 80px;
+	}
+	.techno5box {
+		margin-bottom: 0;
+	}
+	.techno5text p {
+		font-size: 16px;
+	}
+	.techno5text h1 {
+		font-size: 25px;
+		margin-bottom: 20px;
+	}
+	.chek {
+		margin-bottom: 30px;
+	}
+	.techno5text > div {
+		padding: 30px 30px 70px 30px;
+	}
+	.techno5link {
+		font-size: 16px;
+	}
+	.techno5 {
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		column-gap: 120px;
+		row-gap: 50px;
+	}
+	.techno5block {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		column-gap: 20px;
+		row-gap: 20px;
+	}
+	.techno5text > div {
+		width: 450px;
+	}
+	.certifiedBlock {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		row-gap: 30px;
+		justify-items: center;
+	}
+	.partnerBox {
+		justify-items: center;
+		padding-bottom: 50px;
+		padding-right: 0;
+		border-right: none;
+		height: 100%;
+		border-bottom: 1px solid #667080;
+	}
+	.certified {
+		display: grid;
+		justify-items: center;
+		grid-template-columns: repeat(1, 1fr);
+	}
+	/* Industries */
+	.indus7 {
+		flex-direction: column;
+		row-gap: 50px;
+	}
+	.indusText {
+		grid-template-columns: repeat(1, 1fr);
+		row-gap: 50px;
+	}
+	.indus2text {
+		width: 550px;
+	}
+	/* Company */
+	.companyMainBlock {
+		align-items: start;
+		flex-direction: column;
+		padding-top: 30px;
+		row-gap: 30px;
+	}
+	.companyMainText{
+		height: auto;
+	}
+	
+}
+
+@media screen and (max-width: 880px) {
+	.process-btn ul {
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+	}
+
+	.process-btn ul li:nth-child(4) {
+		margin-right: 0px;
+	}
+	.case-section p {
+		font-size: 14px;
+	}
+	.menu-item__links {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+	}
+	.menu-item__link1 {
+		margin-bottom: 40px;
+		padding-left: 0;
+	}
+	.menu-item__link2 {
+		margin: 0 0 40px 0;
+		padding-right: 0;
+	}
+	.menu-item__link4 {
+		margin-right: 0px;
+	}
+	.menu-item__link3 {
+		padding-right: 0;
+	}
+	/* Services */
+
+	.service-8-block {
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.fintech:first-child {
+		margin-right: 0;
+	}
+	.fintech:nth-child(2) {
+		margin-right: 0;
+	}
+	/* Technologies */
+	.techno3 {
+		grid-template-columns: repeat(2, 1fr);
+		row-gap: 50px;
+	}
+	/* Industries */
+	.indusBlock {
+		grid-template-columns: repeat(2, 1fr);
+	}
+	.industries1 {
+		margin: 90px 0;
+		padding: 50px;
+	}
+}
+@media screen and (max-width: 780px) {
+	.process-btn ul {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+	}
+	.process-btn ul li:nth-child(3) {
+		margin-right: 0px;
+	}
+	.process-heading h1 {
+		font-size: 40px;
+	}
+	/* .portfolio-items {
+		justify-content: flex-start;
+	} */
+	.portfolio-item:first-child {
+		margin-bottom: 50px;
+	}
+
+	/* Service */
+	.fintech:first-child {
+		margin-right: 0;
+	}
+	/* work */
+	.work1icon {
+		grid-template-columns: repeat(2, 1fr);
+	}
+	.work8img {
+		grid-template-columns: repeat(2, 1fr);
+	}
+	/* work */
+	.work1icon {
+		column-gap: 30px;
+	}
+	.workHeadText {
+		margin-bottom: 90px;
+	}
+	/* Industries */
+	.indus4 {
+		grid-template-columns: repeat(1, 1fr);
+		row-gap: 50px;
+	}
+	/* company */
+	.companyMainText h1{
+		font-size: 35px;
+		width: 100%;
+	}
+	.companyMainText p{
+		font-size: 20px;
+	}
+	.company2block{
+		flex-direction: column;
+		row-gap: 50px;
+	}
+	
+}
+@media screen and (max-width: 650px) {
+	.service {
+		display: flex;
+		flex-direction: column;
+		margin-top: 100px;
+	}
+	.service-block1 {
+		width: 100%;
+		text-align: center;
+		font-size: 48px;
+		padding: 16px 0 16px 0;
+	}
+
+	.service-block2 {
+		font-size: 48px;
+		width: 100%;
+
+		text-align: center;
+		padding: 16px 0 16px 0;
+	}
+	.process-btn ul {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.process-btn ul li:nth-child(2) {
+		margin-right: 0px;
+	}
+	.info-section {
+		text-align: center;
+	}
+	.process-info {
+		padding: 20px 20px;
+	}
+	.info-section p {
+		font-size: 16px;
+	}
+	.process-info {
+		justify-content: center;
+	}
+	.case-info {
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.case-block3 {
+		margin-bottom: 50px;
+	}
+	/* Service */
+	form #debt-amount-slider label::before {
+		font-size: 16px;
+	}
+	/* work */
+	.work3icon {
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.work5icon {
+		grid-template-columns: repeat(2, 1fr);
+		row-gap: 30px;
+	}
+	.frameBox {
+		padding: 16px 25px 14px 16px;
+	}
+	.work6icon {
+		grid-template-columns: repeat(2, 1fr);
+	}
+	.work7icon {
+		grid-template-columns: repeat(2, 1fr);
+	}
+	/* Technologies */
+	.techno3 > div {
+		column-gap: 10px;
+	}
+	.workHeadText2 h1 {
+		font-size: 30px;
+		line-height: 35px;
+	}
+	.techno4 h1 {
+		font-size: 30px;
+	}
+	.technologies2 {
+		margin-bottom: 90px;
+	}
+	.technologies4 {
+		margin-bottom: 90px;
+	}
+	.technologies5 {
+		margin-bottom: 90px;
+	}
+
+	.technologies7 {
+		margin: 90px 0;
+	}
+	.technologies9 {
+		margin: 90px 0;
+		height: 20vh;
+	}
+	.technologies10 {
+		margin-bottom: 90px;
+	}
+	.techno5text > div {
+		width: 100%;
+	}
+	.indusBlock {
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.indus2text {
+		width: 100%;
+	}
+	.industries1 h1 {
+		font-size: 30px;
+		line-height: 35px;
+	}
+	.techno2text h1{
+		line-height: 35px;
+	}
+	/* Company */
+	.companyMainText h1{
+		font-size: 30px;
+		line-height: 40px;
+	}
+	.companyMainText p{
+		font-size: 16px;
+	}
+	.office h1{
+		font-size: 20px;
+	}
+	.office a{
+		font-size: 14px;
+	}
+	.office p{
+		font-size: 16px;
+	}
+	.company3text h1{
+		font-size: 30px;
+	}
+	.office{
+		margin-top: 30px;
+	}
+}
+
+@media screen and (max-width: 540px) {
+	.main-block h1 {
+		font-size: 30px;
+	}
+	.info-text {
+		text-align: center;
+	}
+	.info-text h2 {
+		text-align: center;
+		font-size: 30px;
+	}
+
+	.info-text h4 {
+		font-size: 18px;
+	}
+	.info-text p {
+		font-size: 14px;
+	}
+	.info-text a {
+		font-size: 15px;
+	}
+	.service-description {
+		padding: 30px 20px;
+	}
+	.service-description h2 {
+		font-size: 30px;
+	}
+	.service-description p {
+		font-size: 14px;
+	}
+	.link-service a {
+		font-size: 18px;
+	}
+	.process-btn ul {
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+	}
+
+	.process-btn ul li:nth-child(1) {
+		margin-right: 0px;
+	}
+	.process-btn ul li:nth-child(5) {
+		margin-right: 0px;
+	}
+	.img-section img {
+		width: 100%;
+		height: 100%;
+	}
+	.service div {
+		font-size: 30px;
+	}
+	.process-heading h1 {
+		font-size: 30px;
+	}
+	.case-description h1 {
+		font-size: 30px;
+	}
+	.portfolio-stats h4 {
+		font-size: 30px;
+	}
+	.portfolio-items {
+		justify-content: center;
+		text-align: center;
+	}
+	.portfolio-item:nth-child(2) {
+		margin-bottom: 50px;
+	}
+	.portfolio-item h1 {
+		font-size: 35px;
+	}
+	.portfolio-item p {
+		font-size: 16px;
+	}
+	.portfolio-item {
+		width: 100%;
+	}
+	.portfolio-stats {
+		margin: 60px 0;
+	}
+	.footer-bottom-items {
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		justify-items: center;
+	}
+	.footer-bottom-item a {
+		padding-left: 0;
+	}
+	.process {
+		margin-bottom: 80px;
+	}
+	/* Service */
+	.service-2-text h5 {
+		font-size: 14px;
+		margin-bottom: 10px;
+	}
+	.service-2-text h1 {
+		font-size: 20px;
+		margin-bottom: 20px;
+	}
+	.elipseText h2 {
+		font-size: 20px;
+	}
+	form #debt-amount-slider label::before {
+		font-size: 10px !important;
+		letter-spacing: 0;
+		font-weight: 400;
+	}
+	form #debt-amount-slider input:checked + label::before {
+		font-weight: 600;
+	}
+	/* work */
+	.number {
+		margin-bottom: 30px;
+	}
+	.number h1 {
+		font-size: 33px;
+	}
+	.work1block h3 {
+		font-size: 18px;
+	}
+	.work2block h3 {
+		font-size: 18px;
+	}
+	.work8text h1 {
+		font-size: 33px;
+	}
+	.work8text p {
+		font-size: 16px;
+	}
+	.frameBlock {
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.work8img {
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.work8img2 {
+		grid-template-columns: repeat(1, 1fr);
+		row-gap: 50px;
+	}
+	.workHeadText h1 {
+		font-size: 30px;
+	}
+	/* Technologies */
+	.certifiedBlock {
+		grid-template-columns: repeat(1, 1fr) !important;
+		row-gap: 40px !important;
+	}
+	.techno5block {
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.certifiedText2 {
+		flex-direction: column;
+		align-items: center;
+		row-gap: 50px;
+	}
+	.certifiedText2 div {
+		row-gap: 20px;
+		flex-direction: column;
+		align-items: center;
+	}
+	.techno5text h1 {
+		text-align: center;
+	}
+	.techno5text > p {
+		text-align: center;
+	}
+	.techno3 div {
+		display: inline-block;
+		text-align: center;
+		margin-top: 10px;
+	}
+	.techno2text {
+		text-align: center;
+	}
+	/* Industries */
+	.indus6 {
+		grid-template-columns: repeat(1, 1fr) !important;
+	}
+	.indus5 h1 {
+		font-size: 25px;
+		line-height: 27px;
+	}
+	.indus5 a{
+		font-size: 10px;
+	}
+	.industries5 {
+		padding: 100px 20px;
+		text-align: center;
+	}
+	.industries1 a:last-child {
+		font-size: 14px;
+		padding: 13px 30px;
+	}
+	.industries1 {
+		padding: 30px;
+	}
+	/* Company */
+	
+}
+@media screen and (max-width: 450px) {
+	.menu-item__links {
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.menu-link {
+		margin-right: 0;
+		padding-left: 0;
+		padding-right: 0;
+		border-right: none;
+	}
+
+	.contact {
+		margin-top: 20px;
+		margin-bottom: 0;
+	}
+
+	.menu-item__link1 {
+		padding-right: 0;
+		padding-left: 0;
+		border-left: none;
+		margin-bottom: 0;
+	}
+	.menu-item__link2 {
+		margin-bottom: 0;
+	}
+	.menu-item__link3 {
+		border-bottom: 1px solid #9da5b2;
+		padding-bottom: 20px;
+		margin-bottom: 20px;
+	}
+	.menu-item__link4 {
+		border-bottom: 1px solid #9da5b2;
+		margin-bottom: 20px;
+		padding-bottom: 20px;
+	}
+	.elipseText h2 {
+		font-size: 20px !important;
+		margin-bottom: 10px !important;
+	}
+
+	.circle img {
+		width: 250px !important;
+	}
+	.elipse {
+		overflow: hidden;
+		position: relative;
+	}
+	/* work*/
+	.work5icon {
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.work6icon {
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.work7icon {
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.work1icon {
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.works {
+		margin-bottom: 50px;
+	}
+	/* Technologies */
+	.techno6 h1 {
+		font-size: 16px;
+		text-align: center;
+		line-height: 30px;
+	}
+	.techno6 a {
+		padding: 10px 30px;
+		font-size: 14px;
+	}
+	.technologies6 {
+		padding: 20px 10px;
+	}
+	.technologies8 {
+		padding: 50px 15px 65px 15px;
+	}
+	.industries5 {
+		padding: 50px 10px !important;
+	}
+	/* Company */
+	.company2text h1{
+		font-size: 25px;
+		margin-bottom: 10px;
+	}
+	.company2text h2{
+		font-size: 16px;
+	}
+	.company2text p{
+		font-size: 14px;
+	}
+	.company3text h1{
+		font-size: 25px;
+	}
+}
+@media screen and (max-width: 380px) {
+	.main-block {
+		text-align: center;
+	}
+	.main {
+		height: 80vh;
+	}
+
+	.service-info {
+		padding: 60px 0 60px 0;
+	}
+	.info-section {
+		margin-bottom: 60px;
+	}
+
+	.footer-block {
+		padding-bottom: 30px;
+	}
+	.footer-block1 > a {
+		display: inherit;
+		text-align: center;
+	}
+	/* work */
+	.work3icon div {
+		padding: 10px 30px 10px 20px;
+	}
+	.number h1 {
+		font-size: 28px;
+	}
+	.work1block h3 {
+		font-size: 16px;
+	}
+	.work2block h3 {
+		font-size: 16px;
+	}
+	.work1block p {
+		font-size: 14px;
+	}
+	.work2block p {
+		font-size: 14px;
+	}
+	/* Technologies */
+	.techno2text h1 {
+		font-size: 25px;
+	}
+	.workHeadText h1 {
+		font-size: 25px;
+	}
+	.techno4 h1 {
+		font-size: 25px;
+		line-height: 35px;
+	}
+	.certifiedText p {
+		font-size: 16px;
+	}
+	.techno2text p {
+		font-size: 14px;
+	}
+	.techno3 p {
+		font-size: 14px;
+	}
+	.techno4 p {
+		font-size: 14px;
+	}
+	.techno5link {
+		font-size: 14px;
+	}
+	.techno5text p {
+		font-size: 14px;
+		margin-top: 10px;
+	}
+	.technologies9 {
+		height: 10vh;
+	}
+	.certifiedText a {
+		padding: 13px 30px;
+		font-size: 14px;
+	}
+
+	.techno5text > div {
+		padding: 20px 20px 50px 20px;
+	}
+	/* Industries */
+
+	.indus4 h1 {
+		font-size: 25px;
+		line-height: 35px;
+	}
+	.indus4 p {
+		font-size: 14px;
+	}
+	.indus1text {
+		text-align: center;
+	}
+	.industries1 h1 {
+		font-size: 25px;
+	}
+	.industries1 p {
+		font-size: 14px;
+	}
+	.indus1text h1 {
+		font-size: 25px;
+		line-height: 35px;
+	}
+	.indus1text p {
+		font-size: 14px;
+	}
+	/* Company */
+	.companyMainText h1{
+		font-size: 25px;
+	}
+	.companyMainText p{
+		font-size: 14px;
+	}
+	.companyMainBox h2{
+		font-size: 16px;
+	}
+	.companyMainBlock{
+		text-align: center;
+	}
+	.company2{
+		text-align: center;
+	}
+	.company3text{
+		text-align: center;
+	}
+	.page{
+	position: absolute;
+	top: 80px;
+	}
+	.company3text h1{
+		margin-bottom: 25px;
+	}
+	
+}
+
+@media screen and (max-width: 350px) {
+	.chek {
+		display: inline-block;
+		text-align: center;
+	}
+	.industries1 a:last-child {
+		font-size: 9px;
+	}
+	.indus2text {
+		text-align: center;
+	}
+	.indus2text p {
+		margin-top: 10px;
+	}
+	.techno6 a {
+		font-size: 12px;
+	}
+	.indusLink {
+		font-size: 14px;
+	}
+	.indusBox {
+		padding: 20px;
+	}
+}
+
+/* Service */
+@media screen and (max-width: 1250px) {
+	.service-block3 {
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.service-3-text {
+		margin-right: 0;
+		margin-bottom: 50px;
+	}
+	.service-users {
+		justify-content: space-around;
+	}
+
+	.service-block4 {
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	.userBox4 {
+		margin-right: 0;
+		display: flex;
+		justify-content: space-around;
+	}
+	.service-4-text {
+		margin-bottom: 50px;
+		width: 100%;
+	}
+	/* .serUser4 {
+		margin-right: 50px;
+	} */
+	/* .service-4 {
+		margin-bottom: 150px;
+	}
+	.service-5 {
+		margin-bottom: 250px;
+	} */
+	.service-block5 {
+		display: flex;
+		flex-direction: column;
+	}
+	.service-5-textHead {
+		margin-bottom: 50px;
+		width: 100%;
+	}
+	.service-block6 {
+		display: flex;
+		flex-direction: column-reverse;
+		align-items: center;
+	}
+	.userBox3 {
+		margin-right: 0;
+	}
+	.service-6-text {
+		width: 100%;
+		margin-bottom: 50px;
+	}
+	.service-block7 {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.service-users {
+		align-items: flex-start;
+	}
+	.dots1 {
+		top: 280px;
+	}
+	.user h2 {
+		font-size: 20px;
+	}
+	.userDot {
+		display: none;
+	}
+	.userDot2 {
+		display: none;
+	}
+	/* Technologies */
+	.techno3 {
+		grid-template-columns: repeat(1, 1fr);
+	}
+}
+@media screen and (max-width: 690px) {
+	.userBox1 {
+		margin-right: 0;
+		margin-bottom: 50px;
+	}
+	.service-users {
+		display: grid;
+		grid-template-columns: 1fr;
+		justify-content: center;
+	}
+	.userBox4 {
+		display: grid;
+		grid-template-columns: 1fr;
+	}
+	.service-block4 {
+		align-items: center;
+	}
+	.userDot {
+		left: -80px;
+		max-width: 60%;
+		top: 160px;
+	}
+	.userDot2 {
+		max-width: 50%;
+		left: -135px;
+		top: 140px;
+	}
+	.dots1 {
+		display: none;
+	}
+	.service-block5 {
+		align-items: center;
+	}
+	.service-block3 {
+		align-items: center;
+	}
+	.user {
+		margin-bottom: 50px;
+		/* width: 270px;
+		padding: 20px 25px 28px 25px; */
+	}
+	/* .user img {
+		width: 20%;
+		margin-bottom: 35px;
+	} */
+	.user h2 {
+		font-size: 20px;
+	}
+	.service-main-block {
+		margin-top: 50px;
+		margin-bottom: 100px;
+	}
+	.serUser6 {
+		margin-bottom: 0;
+	}
+	.service-2-text p {
+		margin-bottom: 150px;
+	}
+
+	.textHead p {
+		font-size: 16px;
+	}
+	.service-3 {
+		margin-bottom: 100px;
+	}
+	.service-4 {
+		margin-bottom: 100px;
+	}
+
+	.service-5 {
+		margin-bottom: 100px;
+	}
+	.service-6 {
+		margin-bottom: 100px;
+	}
+	.service-8 {
+		margin-bottom: 100px;
+	}
+	.service-main-text h1 {
+		font-size: 30px;
+	}
+	.service-main-text p {
+		font-size: 16px;
+	}
+	.service-main-text button {
+		font-size: 18px;
+	}
+	.service-5 {
+		margin-bottom: 60px;
+	}
+	.service-6 {
+		margin-bottom: 100px;
+	}
+	.elipseText h2 {
+		font-size: 30px;
+		margin-bottom: 20px;
+	}
+	.elipseText p {
+		font-size: 14px;
+	}
+	.elipseText {
+		width: 200px;
+	}
+	.circle img {
+		width: 300px;
+	}
+	.service-8 {
+		margin-bottom: 60px;
+	}
+	.service-8-text {
+		margin-bottom: 60px;
+	}
+	.service-8-text h5 {
+		font-size: 18px;
+		margin-bottom: 20px;
+	}
+	.service-8-text h1 {
+		font-size: 26px;
+	}
+	.service-9 {
+		margin-bottom: 60px;
+	}
+	.fintechBox {
+		padding: 0px 20px 45px 20px;
+	}
+	.fintech a {
+		font-size: 15px;
+	}
+	.fintech h2 {
+		font-size: 15px;
+	}
+	.fintech p {
+		font-size: 13px;
+	}
+	.service-9-text h5 {
+		font-size: 16px;
+	}
+	.service-9-text h1 {
+		font-size: 26px;
+		margin-bottom: 30px;
+	}
+	.service-9-text button {
+		font-size: 16px;
+	}
+	/* Technologies*/
+	.certifiedBlock {
+		grid-template-columns: repeat(2, 1fr);
+		row-gap: 70px;
+		column-gap: 70px;
+	}
+
+	.partnerBox {
+		justify-content: center;
+		padding-bottom: 50px;
+		padding-right: 0;
+		border-right: none;
+		height: 100%;
+		border-bottom: 1px solid #667080;
+	}
+	.techno2img img {
+		max-width: 100%;
+	}
+	/* Industries */
+	.indus6 {
+		grid-template-columns: repeat(2, 1fr);
+		row-gap: 30px;
+	}
+	.industries5 {
+		padding: 100px 50px;
+		margin: 90px 0;
+	}
+	/* Company */
+	.slide3text{
+		width: 100%;
+		top: 70%;
+		left: 0;
+	}
+}
+@media screen and (max-width: 400px) {
+	.fintech {
+		width: 100%;
+	}
+	.user {
+		padding: 20px 25px 28px 25px;
+		height: auto;
+		width: 100%;
+	}
+	.service-main-text p {
+		margin-bottom: 30px;
+		font-size: 14px;
+	}
+	.service-main-text h1 {
+		font-size: 25px;
+		line-height: 37px;
+	}
+	.service-main-text button {
+		margin-bottom: 60px;
+		font-size: 14px;
+	}
+}
